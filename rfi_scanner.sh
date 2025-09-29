@@ -73,7 +73,7 @@ if [[ ${#RFI_URLS[@]} -eq 0 ]]; then err "No RFI URLs found."; exit 1; fi
 # -------------------------
 # Your GitHub raw marker URL (only payload used)
 # -------------------------
-GITHUB_RAW_MARKER="https://raw.githubusercontent.com/payload10/Split-Windows-and-Linux-LFI-Payloads/main/rfi.txt"
+GITHUB_RAW_MARKER="https://raw.githubusercontent.com/payload10/LFI-RFI-Scripts/refs/heads/main/rfi.txt"
 
 # -------------------------
 # Build payload variants from the single GitHub raw marker (deduped)
